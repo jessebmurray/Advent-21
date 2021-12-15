@@ -1,6 +1,4 @@
-import numpy as np
-import matplotlib.pyplot as plt
-
+import numpy as np; import matplotlib.pyplot as plt
 
 def get_X(textfile):
     return np.array([[int(n) for n in line] for line in open(textfile, "r").read().splitlines()], dtype=np.uint8)

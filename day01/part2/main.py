@@ -1,5 +1,8 @@
 def brutus(textfile):
-    
+    """This code would be necessary if the operator wasn't a rolling sum but 
+    instead something non-linear. But with the operator being addition, it's
+    knowingly quite brute."""
+
     counter = 0
     j = 1
     abc = [None] * 3
@@ -39,9 +42,7 @@ def brutus(textfile):
     return counter
 
 
-# This code would be necessary if the operator 
-# wasn't a rolling sum but instead something
-# non-linear 
+
 
 print(brutus(textfile="input.txt"))
 
